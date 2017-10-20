@@ -79,18 +79,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Percakapan
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-					<a href="percakapan">Percakapan</a>
-					<a href="contact">Contact</a>
-                </div>
+				{!! Form::open(array('url' =>
+				'percakapan/kirim','method' => 'POST')) !!}
+				<div>
+					<strong>Percakapan:</strong>
+					{!! Form::text ('pesan', null,
+					array('placeholder' => 'Tuliskan
+					pesan','class' => 'form-control')) !!}
+					<button type="submit" class="btn
+					btn-primary">Kirim</button>
+				</div>
             </div>
         </div>
     </body>

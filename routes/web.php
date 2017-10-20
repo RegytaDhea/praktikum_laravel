@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function () { // / merupakan url home/halaman utama laravel
     return view('welcome');
+});
+
+Route::get('contact', function () { //aksesnya dg .../contact
+    return view('contact');
+});
+
+Route::get('percakapan', function () { //urlnya /percakapan
+    return view('percakapan');
+});
+
+Route::post('percakapan/kirim', function () {
+    return view('percakapan_kirim');
 });
