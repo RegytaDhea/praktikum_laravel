@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable; //import authentificatio
 class Admin extends Authenticatable
 {
     use Notifiable;
-	protected $guard = ‘admin’;
+	protected $guard = 'admin';
 
     /**
      * The attributes that are mass assignable.
