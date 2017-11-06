@@ -333,9 +333,7 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-		<li><a href="coba1"><i class="fa fa-comment"></i> <span>Coba 1</span></a></li>
-		<li><a href="coba2"><i class="fa fa-comment"></i> <span>Coba 2</span></a></li>
-		@yield('menu')
+		@yield('sidebar_menu')
       </ul>
     </section>
     <!-- /.sidebar -->
