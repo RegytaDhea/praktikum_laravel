@@ -1,5 +1,5 @@
 @extends('layouts.master') <!--menggunakan file master di folder layout, di contoh ini semua file di master disesuaikan antara master dg coba 1--->
-
+@section('menu')
 @section('content_header')
 <h1>
 	Coba 1

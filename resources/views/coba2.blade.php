@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('menu')
 @section('content_header')
 <h1>
 	Coba 2
