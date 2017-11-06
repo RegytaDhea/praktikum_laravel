@@ -53,7 +53,7 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-                                        @yield('logout) <!---membuat dinamis--->
+                                        @yield('logout') <!---membuat dinamis--->
                                     </li>
                                 </ul>
                             </li>
